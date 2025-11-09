@@ -1,1 +1,13 @@
-
+def str2bool(s):
+    return s.lower() in ("Y","y","C","c","có")
+while True:
+    year=int(input("Enter year:"))
+    result=(year%4==0 and year%100!=0) or year%400==0
+    if result ==True:
+        print(year,"is a leap year")
+    else:
+        print(year, "is not a leap year")
+    ask=input("Continue?")
+    if str2bool(ask)==False:
+        print("THANK YOU")
+        exit(0)
