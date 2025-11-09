@@ -42,3 +42,5 @@ print(r)
 #1x^2-4x+4=0
 print("1x^2-4x+4=0")
 r=ptb2(1,-4,4)
+print(r)
+
