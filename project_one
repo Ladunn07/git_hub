@@ -10,4 +10,4 @@ while True:
     ask=input("Continue?")
     if str2bool(ask)==False:
         print("THANK YOU")
-        exit(0)
+   
