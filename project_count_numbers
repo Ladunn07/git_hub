@@ -22,3 +22,12 @@ def read_number_as_string(n):
         return "Mười"
     elif n>=11 and n<=19:
         word1="Mười"
+        word2=num2str(n2)
+        if n2==5:
+            word2=" lăm "
+        return word1+" "+word2
+    elif n>=20 and n<=99:
+        word1=num2str(n1)
+        word2=num2str(n2)
+        if n2==0:
+            word2=" mươi "
