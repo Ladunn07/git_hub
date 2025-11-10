@@ -13,3 +13,4 @@ while True:
         exit(0)
    
 hello
+goodbye
