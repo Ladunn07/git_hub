@@ -1,1 +1,8 @@
-
+def num2str(num):
+    match num:
+        case 0: return "Không"
+        case 1: return "Một"
+        case 2: return "Hai"
+        case 3: return "Ba"
+        case 4: return "Bốn"
+        case 5: return "Năm"
