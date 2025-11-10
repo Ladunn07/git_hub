@@ -14,3 +14,11 @@ def separate(n):
     n2=n%10
     n1=n//10
     return n1,n2
+def read_number_as_string(n):
+    n1,n2=separate(n)
+    if n<10:
+        return num2str(n)
+    elif n==10:
+        return "Mười"
+    elif n>=11 and n<=19:
+        word1="Mười"
