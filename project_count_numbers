@@ -31,3 +31,13 @@ def read_number_as_string(n):
         word2=num2str(n2)
         if n2==0:
             word2=" mươi "
+            return word1 + " " + word2
+        elif n2==1:
+            return word1 +  " Mươi Mốt "
+        elif n2==5:
+            return word1 +  " Mươi Lăm "
+        else:
+            return word1 +  " Mươi "  + word2
+for i in range(0,100):
+    word=read_number_as_string(i)
+    print(i,"=>",word)
